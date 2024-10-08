@@ -1,0 +1,63 @@
+.capa_video {
+    position: relative;
+    width: 100%;
+}
+
+.video_cliente {
+    width: 100%;
+    display: block;
+}
+
+.logo_delta {
+    position: absolute;
+    left: 2px;
+    top: 0;
+    height: 100%;
+    z-index: 2;
+    transform: translate(-100%, 0);
+}
+
+.frase_sonho {
+    position: absolute;
+    font-weight: 900;
+    font-size: 60px;
+    color: #FFFFFF;
+    right: 0;
+    top: 70%;
+    font-family: roboto;
+    background-color: #C1383D;
+    padding: 28px 160px 28px 46px;
+    width: 767px;
+}
+
+.frase_sonho_strong {
+    color: #151515;
+}
+
+@media (max-width: 767px) {
+    
+    .frase_sonho {
+        font-size: 20px;
+        padding: 10px 15px 10px 20px;
+        width: 80%;
+    }
+
+    .logo_delta {
+        z-index: 0;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+
+    .frase_sonho {
+        font-size: 30px;
+        padding: 15px 20px 15px 25px;
+        width: 55%;
+    }
+
+    .logo_delta {
+        z-index: 0;
+    }
+
+}

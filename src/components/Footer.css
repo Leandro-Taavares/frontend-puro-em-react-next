@@ -1,0 +1,230 @@
+.categorias_footer {
+    display: flex;
+}
+
+.logo_doin {
+    margin-top: 20px;
+}
+
+.topicos_rodape {
+    display: inline-flex;
+    margin-top: 24px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.topicos_rodape li {
+    margin-right: 20px;
+}
+
+.categorias_footer a {
+    text-decoration: none;
+    display: inline-flex;
+    color: white;
+    font-size: 400;
+    font-family: Roboto;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    background-color: #323232;
+}
+
+.container_conteudo_footer {
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid white;
+}
+
+.localidade {
+    width: 370px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: 400;
+    margin-right: 50px;
+}
+
+.localidade p {
+    font-size: 14px;
+    margin: 0.9em;
+}
+
+.telefone {
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+
+.telefone p {
+    display: inline-block;
+     
+}
+
+.titulo_loja {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.whatsapp {
+    display: inline-block;
+}
+
+.whatsapp p {
+    display: inline-block;
+    
+}
+
+.imagem_telefone {
+    margin-left: 10px;
+    vertical-align: sub;
+}
+
+.imagem_whatsapp {
+    vertical-align: sub;
+}
+
+.numero_telefone {
+    margin-left: 3px !important; 
+    text-decoration: none;
+    color: white;
+}
+
+.horario_funcionamento {
+    width: 370px;
+    display: inline-block;
+    word-spacing: 1px;
+    margin-top: 3px !important;
+}
+
+.redes_sociais {
+    margin-left: 10em;
+    margin-top: 44px;
+}
+
+.espacamento {
+    padding: 10px;
+}
+
+footer {
+    background-color: #323232;
+}
+
+
+@media  (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .categorias_footer {
+        display: block;
+    }
+
+    .logo_doin  {
+        display: block;
+        margin: 2% auto 1%;
+        width: auto;
+        padding-top: 2%;
+    }
+
+    .topicos_rodape {
+        margin-left: 1%;
+        font-size: 14px;
+        margin-right: unset;
+        margin-top: 1%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .topicos_rodape li {
+        margin-right: 4%;
+        margin-bottom: 3%;
+    }   
+
+    .container_conteudo_footer {
+        display: block;
+        margin-top: unset;
+        text-align: center;
+        
+    }
+
+    .localidade {
+        width: unset;
+        margin-right: 0px;
+        margin-bottom: 11px;
+        margin-top: 10px;
+    }
+
+    .localidade p {
+        font-size: 16px;
+        margin: 0% 0% 0% 1%;
+    }
+
+
+
+    .redes_sociais {
+        margin-left: 0%;
+        margin-top: 0px;
+        padding-bottom: 2%;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1439px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .categorias_footer {
+        display: block;
+    }
+
+    .logo_doin  {
+        margin-left: 35%;
+        margin-bottom: 1%;
+        margin-top: 2%;
+    }
+
+    .topicos_rodape {
+        margin-left: 1%;
+        font-size: 14px;
+        margin-right: unset;
+        margin-top: 1%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .topicos_rodape li {
+        margin-right: 4%;
+        margin-bottom: 3%;
+    }   
+
+    .container_conteudo_footer {
+        display: block;
+        margin-top: unset;
+        
+    }
+
+    .localidade {
+        width: unset;
+        margin-right: 0px;
+        margin-bottom: 11px;
+        margin-top: 10px;
+    }
+
+    .localidade p {
+        font-size: 16px;
+        margin: 0% 0% 0% 1%;
+    }
+
+
+
+    .redes_sociais {
+        margin-left: 33%;
+        margin-top: 0px;
+        padding-bottom: 2%;
+    }
+
+}

@@ -1,0 +1,274 @@
+.header {
+    left: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    top: 0;
+    padding: 1% 10%;
+    box-sizing: border-box;
+  }
+  
+
+  .header.white {
+    background-color: white;
+    box-shadow: 0px 0px 10px #888888;
+    border: 1px solid #ffffff;
+  }
+  
+  .header.white .menu_texto {
+    color: black;
+  }
+  
+  .header.white .barra_cabecalho_1,
+  .header.white .barra_cabecalho_2,
+  .header.white .barra_cabecalho_3 {
+    border-color: black;
+  }
+  
+  .header.white .nosso_estoque_header {
+    color: black;
+    border-color: black;
+  }
+  
+  .header.white .borda_header {
+    display: none;
+  }
+  
+  .menu_aberto {
+    width: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .borda_header {
+    margin-top: 78px;
+    border-top: 1px groove white;
+    position: fixed;
+    z-index: 2;
+    left: 10%;
+    width: 80%;
+  }
+  
+  .menu_texto {
+    font-family: roboto;
+    color: white;
+    font-size: 15px;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 18px;
+    z-index: 3;
+  }
+  
+  .nosso_estoque_header {
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .nosso_estoque_header:hover {
+    transition: 300ms linear;
+    background-color: #c1383d;
+  }
+  
+  .header_menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .overlay.menu_aberto__ativo {
+    display: block;
+    opacity: 1;
+  }
+  
+  .no-scroll {
+    overflow: hidden;
+  }
+  
+  .header_menu:target {
+    color: #c1383d;
+  }
+  
+  .header_menu_aberto {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 70%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    color: #dcdcdc;
+    font-size: 18px;
+    font-family: roboto;
+    padding-left: 22%;
+    padding-top: 100px;
+    transition: all 0.3s ease;
+    z-index: 2;
+    overflow: hidden;
+  }
+  .header_menu_aberto.menu_aberto__ativo {
+    left: 0;
+  }
+  
+  .texto_menu_aberto {
+    cursor: pointer;
+    padding-bottom: 40px;
+    padding-right: 200px;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  
+  .texto_menu_aberto:hover {
+    transition: 0.2ms;
+    color: #ffffff;
+  }
+  
+  .menu_aberto__ativo {
+    left: 0;
+  }
+  
+  .barra_cabecalho_1 {
+    border-top: 2px solid white;
+    position: absolute;
+    z-index: 3;
+    width: 16px;
+    margin-top: 6px;
+  }
+  
+  .barra_cabecalho_2 {
+    border-top: 2px solid white;
+    position: absolute;
+    z-index: 3;
+    width: 16px;
+    margin-top: 18px;
+  }
+  
+  .barra_cabecalho_3 {
+    border-top: 2px solid white;
+    position: absolute;
+    z-index: 3;
+    width: 16px;
+    margin-top: 30px;
+  }
+  
+  .barra_cabecalho_1.ativo {
+    margin-top: 13px;
+    transform: rotate(40deg);
+  }
+  
+  .barra_cabecalho_2.ativo {
+    display: none;
+  }
+  
+  .barra_cabecalho_3.ativo {
+    margin-top: 13px;
+    transform: rotate(-40deg);
+  }
+  
+  .Logo {
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      content: "";
+      top: 0;
+      left: 0;
+      bottom: 0%;
+      right: 0;
+      background: rgba(0, 0, 0, 0.4);
+      display: block;
+      width: unset;
+      height: fit-content;
+      border-bottom: 2px groove white;
+    }
+  
+    .Logo {
+      padding-top: 1%;
+      padding-left: 40%;
+    }
+  
+    .header_menu {
+      padding-left: 44%;
+      padding-top: 1%;
+      display: block;
+      position: relative;
+      z-index: 3;
+    }
+  
+    .barra_cabecalho_1,
+    .barra_cabecalho_2,
+    .barra_cabecalho_3 {
+      width: 3%;
+      border-top: 1px solid white;
+      z-index: 1;
+    }
+  
+    .barra_cabecalho_1 {
+      margin-top: 4px;
+    }
+  
+    .barra_cabecalho_2 {
+      margin-top: 9px;
+    }
+  
+    .barra_cabecalho_3 {
+      margin-top: 14px;
+    }
+  
+    .nosso_estoque_header {
+      font-size: 10px;
+      padding: 7px;
+      margin-left: 40%;
+      display: inline-block;
+      margin-top: 1%;
+      margin-bottom: 1%;
+    }
+  
+    .borda_header {
+      display: none;
+    }
+  
+    .menu_texto {
+      float: none;
+      padding-left: 8%;
+      padding-top: 1%;
+    }
+  
+    .menu_aberto__ativo {
+      width: 100%;
+      max-width: unset;
+      padding-left: unset;
+      padding-bottom: unset;
+    }
+  
+    .texto_menu_aberto {
+      padding-right: 0%;
+      padding-left: 30%;
+      padding-bottom: 10%;
+    }
+  }
+  

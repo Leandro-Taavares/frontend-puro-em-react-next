@@ -1,0 +1,138 @@
+.secao_avaliacoes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_clientes {
+text-align: center;
+font-weight: 900;
+font-size: 48px;
+padding-right: 245px;
+padding-top: 25px;
+padding-bottom: 50px;
+color: #C1383D;
+}
+
+.cor_nossos {
+    color: #FFFFFF;
+    margin-right: 20px  ;
+}
+
+.secao_texto {
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 75px;
+    line-height: 193%;
+    max-width: 1200px;
+    
+}
+
+.avaliacao_texto {
+    margin-right: 20px;
+}
+
+.texto_nome {
+    padding-top: 25px;
+}
+
+.imagem_cliente {
+    float: left;
+}
+
+.nome_cliente {
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.avaliacao_cliente {
+    font-family: roboto;
+    position: relative;
+}
+
+.fundo_cinza {
+    position: absolute;
+    background-color:#888888;
+    width: 100vw;
+    height: 530px;
+    z-index: -1;
+    right: 815px;
+    
+
+}
+
+@media (max-width: 768px) {
+
+    .avaliacao_cliente {
+        position: relative;
+    }
+
+    .fundo_cinza {
+        display: none;
+    }
+
+    .texto_fundo_cinza {
+        background-color:#888888;
+    }
+
+    .texto_clientes {
+        font-size: 30px;
+        padding-right: unset;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    .secao_texto {
+        display: block;
+        font-weight: lighter;
+        font-size: 17px;
+        padding-bottom: unset;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    .avaliacao_texto {
+        padding-bottom: 10%;
+        padding-top: 5%;
+        padding-right: 2%;
+        padding-left: 2%;
+        margin-right: unset;
+    }
+
+    .cor_nossos {
+        color: #C1383D;
+        margin-right: unset;
+        text-decoration: none;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1439px) {
+
+    .fundo_cinza {
+        right: 450px;
+    }
+
+    .texto_clientes {
+        font-size: 30px;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    .secao_texto {
+        font-size: 14px;
+        line-height: 1.5;
+        width: 700px;
+        padding-bottom: 30px;
+    }
+
+    .avaliacao_texto {
+        margin-left: 5%;
+    }
+
+}
