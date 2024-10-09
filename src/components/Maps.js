@@ -21,7 +21,7 @@ const Map = ({ hideTitle = false, smallSize = false }) => {
       <div id="map" className="map">
         <LoadScript googleMapsApiKey='AIzaSyCDCkBnwmO2WDKZF9C9H68w-WmeFSrHZfs'>
         <GoogleMap
-          mapContainerStyle={{height: '400px', width:'100%' }}
+          mapContainerStyle={{height: '368px', width:'100%' }}
           center={defaultProps.center}
           zoom={defaultProps.zoom}
         >
