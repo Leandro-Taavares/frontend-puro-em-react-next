@@ -34,7 +34,7 @@ const Header = () => {
           )}
         </Link>
       </div>
-      <Link href="/ProductPage" title="NOSSO ESTOQUE" className="nosso_estoque_header">
+      <Link href="/EstoquePage" title="NOSSO ESTOQUE" className="nosso_estoque_header">
         NOSSO ESTOQUE
       </Link>
       <div className="borda_header"></div>
@@ -42,7 +42,7 @@ const Header = () => {
         <>
           <div className={`overlay ${menuAberto ? "menu_aberto__ativo" : ""}`}onClick={abrirEFecharModal}></div>
           <div className={`header_menu_aberto ${menuAberto ? "menu_aberto__ativo" : ""}`}>
-            <Link className="texto_menu_aberto" href="/ProductPage" title="NOSSO ESTOQUE">
+            <Link className="texto_menu_aberto" href="/EstoquePage" title="NOSSO ESTOQUE">
               NOSSO ESTOQUE
             </Link>
             <Link className="texto_menu_aberto" href="/ContatoPage" title="CONTATO">
