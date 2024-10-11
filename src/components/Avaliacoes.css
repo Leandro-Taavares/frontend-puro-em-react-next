@@ -7,18 +7,18 @@
 }
 
 .texto_clientes {
-text-align: center;
-font-weight: 900;
-font-size: 48px;
-padding-right: 245px;
-padding-top: 25px;
-padding-bottom: 50px;
-color: #C1383D;
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    padding-right: 245px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #C1383D;
 }
 
 .cor_nossos {
     color: #FFFFFF;
-    margin-right: 20px  ;
+    margin-right: 20px;
 }
 
 .secao_texto {
@@ -29,7 +29,7 @@ color: #C1383D;
     padding-bottom: 75px;
     line-height: 193%;
     max-width: 1200px;
-    
+
 }
 
 .avaliacao_texto {
@@ -50,18 +50,17 @@ color: #C1383D;
 }
 
 .avaliacao_cliente {
-    font-family: roboto;
     position: relative;
 }
 
 .fundo_cinza {
     position: absolute;
-    background-color:#888888;
+    background-color: #888888;
     width: 100vw;
     height: 530px;
     z-index: -1;
     right: 815px;
-    
+
 
 }
 
@@ -76,7 +75,7 @@ color: #C1383D;
     }
 
     .texto_fundo_cinza {
-        background-color:#888888;
+        background-color: #888888;
     }
 
     .texto_clientes {

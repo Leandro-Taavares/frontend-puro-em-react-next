@@ -22,7 +22,6 @@
     display: inline-flex;
     color: white;
     font-size: 400;
-    font-family: Roboto;
 }
 
 .container {
@@ -41,7 +40,6 @@
     width: 370px;
     display: inline-block;
     color: #FFFFFF;
-    font-family: Roboto;
     font-weight: 400;
     margin-right: 50px;
 }
@@ -63,7 +61,6 @@
 }
 
 .titulo_loja {
-    font-family: Roboto;
     font-weight: 700;
 }
 

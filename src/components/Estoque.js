@@ -52,6 +52,7 @@ const Estoque = () => {
                                     src="/imagens/logoMercedes.png"
                                     className="logo-mercedes1"
                                 />
+                                <p className="texto-mercedes1">Mercedes</p>
                             </div>
                             <div className="marca marca-padding marca-4">
                                 <img alt="iconeMarca" src="/imagens/logoJeep.png" className="logo-jeep1" />
@@ -71,7 +72,7 @@ const Estoque = () => {
                                     src="/imagens/logoMercedes.png"
                                     className="logo-mercedes2"
                                 />
-                                <p className="texto-mercedes2"></p>
+                                <p className="texto-mercedes2">Mercedes</p>
                             </div>
                             <div className="marca marca-padding marca-margin marca-8">
                                 <img src="/imagens/logoJeep.png" alt="iconeMarca" className="logo-jeep2" />
@@ -228,7 +229,6 @@ const Estoque = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="border"></div>
                     <div className="aba-estoque">
                         <div className="home-estoque">
                             <p>Home - Nosso estoque</p>
@@ -240,7 +240,7 @@ const Estoque = () => {
                             {carros.map((car) => (
                                 <CarrosAnunciados
                                     key={car.id}
-                                    to="/EstoquePage"
+                                    to="/DetalhePage"
                                     id={car.id}
                                     nome={car.nome}
                                     transmissao={car.transmissao}

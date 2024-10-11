@@ -1,0 +1,90 @@
+.section_contato {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.informacoes-contato-maps {
+    width: 1098px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 4px 0px #8D8D8D;
+    border-radius: 9px;
+    height: 389px;  
+    display: flex;
+}
+
+
+.informacoes-funcionamento {
+    padding-left: 2%;
+    width: 65%;
+}
+
+.fundo-verde {
+    background-color: #27AC35;
+    display: inline-flex;
+    width: 253px;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+.img-whatsapp {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.escrita-inf-contato {
+    font-family: 'Roboto';
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 22px 0px 22px 0px;  
+}
+
+.escrita-inf-horario, .escrita-inf {
+    font-family: 'Roboto';
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 16px 0px 16px 0px;
+}
+
+.imgs-contato {
+    display: flex;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.escrita-inf {
+    margin-bottom: 2%;
+}
+
+@media  (max-width: 768px) {
+    .informacoes-contato-maps {
+        width: 100%;
+        margin-top: 8%;
+        display: block;
+        height: 80vh;
+    }
+
+    .informacoes-funcionamento {
+        padding-left: 2%;
+        padding-bottom: 5%;
+        width: 65%;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1439px) {
+    .informacoes-contato-maps {
+        width: 100%;
+        margin-top: 8%;
+    }
+}

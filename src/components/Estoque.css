@@ -9,7 +9,6 @@
   .home-estoque {
     font-size: 12px;
     display: block;
-    font-family: roboto;
     color: #5f5f5f;
     margin-bottom: 19px;
     margin-top: 10px;
@@ -44,7 +43,6 @@
   .texto-marca-carros {
     font-size: 14px;
     display: block;
-    font-family: roboto;
     font-weight: bold;
     padding-left: 25px;
   }
@@ -77,7 +75,6 @@
   .texto-bmw1 {
     font-size: 10px;
     color: #8d8d8d;
-    font-family: roboto;
     padding-top: 8px;
     padding-left: 21px;
     font-weight: lighter;
@@ -90,7 +87,6 @@
   
   .texto-audi1 {
     font-size: 10px;
-    font-family: roboto;
     color: #8d8d8d;
     padding-top: 1px;
     padding-left: 15px;
@@ -210,7 +206,6 @@
   .filtro-combustivel {
     font-size: 14px;
     display: block;
-    font-family: roboto;
     font-weight: bold;
     padding-left: 25px;
   }
@@ -272,7 +267,6 @@
   .exemplo-dir {
     font-size: 14px;
     display: inline-block;
-    font-family: roboto;
     font-weight: lighter;
     padding-left: 25px;
     color: #acacac;

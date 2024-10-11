@@ -52,7 +52,6 @@
   }
   
   .menu_texto {
-    font-family: roboto;
     color: white;
     font-size: 15px;
     padding-left: 25px;
@@ -65,7 +64,6 @@
   
   .nosso_estoque_header {
     text-decoration: none;
-    font-family: roboto;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -121,7 +119,6 @@
     background: rgba(0, 0, 0, 0.6);
     color: #dcdcdc;
     font-size: 18px;
-    font-family: roboto;
     padding-left: 22%;
     padding-top: 100px;
     transition: all 0.3s ease;

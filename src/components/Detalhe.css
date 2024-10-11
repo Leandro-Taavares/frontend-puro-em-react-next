@@ -1,0 +1,371 @@
+.fundo {
+    margin: unset;
+    background-color: #f0f0f0;
+  }
+  
+  .seta-mobile {
+    display: none;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-color: #fff;
+    width: 46px;
+    height: 46px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .5);
+    cursor: pointer;
+    border-radius: 50%;
+    top: 25%;
+    z-index: 1;
+  }
+  
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 30px;
+    color: gray;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .swiper-slide {
+    width: 33%;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    width: 33%;
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    width: 33%;
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    width: 33%;
+  }
+  
+  .informações-carro {
+    background: white;
+    display: block;
+    border-radius: 10px;
+    padding: 1% 2% 5% 2%;
+    width: 730px;
+    box-shadow: 0px 3px 4px 0px #8d8d8d;
+    margin-top: -25px;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 5%;
+  }
+  
+  .informações-carro-2.fixed {
+    top: 905px;
+    position: absolute;
+  }
+  .informações-carro-2 {
+    position: fixed;
+    right: 395px;
+    top: 375px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    padding: 20px 25px 20px 25px;
+    box-shadow: 0px 3px 4px 0px #8d8d8d;
+  }
+  .primeira-linha {
+    padding-bottom: 5%;
+    border-bottom: 1px solid #b8b8b8;
+    margin-bottom: 5%;
+  }
+  .nome-carro-informacoes {
+    font-size: 30px;
+    display: block;
+    font-weight: bold;
+    padding-bottom: 1%;
+  }
+  .versão-carro {
+    font-size: 14px;
+    display: block;
+    padding-bottom: 5%;
+  }
+  .cambio,
+  .Ano,
+  .Km,
+  .Cor,
+  .Troca,
+  .Dono {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 35px;
+  }
+  
+  .texto-bold {
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .segunda-linha,
+  .terceira-linha,
+  .quarta-linha {
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #b8b8b8;
+  }
+  
+  .Opcional,
+  .Garantia,
+  .informações {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5%;
+  }
+  
+  .itens-opcionais {
+    display: flex;
+  }
+  
+  .aba-informações-carros {
+    width: 1114px;
+    margin: 0 auto;
+  }
+  
+  .itens-opcionais-primeira-coluna {
+    display: inline-block;
+  }
+  
+  .informações-texto {
+    line-height: 120%;
+  }
+  
+  .veiculo-loja {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-bottom: 10%;
+  }
+  .alinha-lista {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .fixed {
+    top: 300px;
+    position: fixed;
+  }
+  
+  .img-dinheiro {
+    padding-left: 14%;
+  }
+  
+  .endereco {
+    display: flex;
+    padding-bottom: 10%;
+    align-items: center;
+  }
+  
+  .texto-avalie-carro {
+    color: white;
+    padding-left: 5%;
+    font-size: 20px;
+    font-family: "Roboto";
+  }
+  .fundo-avalie-carro {
+    background-color: #8d8d8d;
+    display: inline-flex;
+    width: 303px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+  }
+  .predio {
+    display: inline-block;
+    font-size: 17px;
+  }
+  
+  .informações-preco-carro {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 25px;
+  }
+  
+  .swiper-pagination-bullet {
+    display: none;
+  }
+  
+  .img-whatsapp {
+    padding-left: 14%;
+  }
+  .telefone-informações {
+    display: flex;
+    padding: 10% 0% 10% 2%;
+    align-items: center;
+  }
+  .texto-localizacao {
+    display: inline-block;
+    font-size: 17px;
+    padding-left: 3px;
+  }
+  .localizacao {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+  .telefone-texto {
+    font-size: 17px;
+    padding-left: 10px;
+    display: inline-block;
+  }
+  .texto-enviar-mensagem {
+    color: white;
+    padding-left: 5%;
+    font-size: 20px;
+    font-family: "Roboto";
+  }
+  
+  .carros-semelhantes {
+    max-width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  
+  .fundo-whatsapp {
+    background-color: #27ac35;
+    display: inline-flex;
+    width: 303px;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+  }
+  .texto-opcionais,
+  .garantia-fabrica,
+  .informações-texto {
+    font-size: 16px;
+    padding-right: 25px;
+  }
+  @media (max-width: 768px) {
+    .seta-mobile {
+      width: 50px;
+      right: 5px;
+      position: absolute;
+      z-index: 2;
+      display: block;
+    }
+  
+    .carros-semelhantes {
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+    }
+  
+    .swiper-slide:nth-child(1n) {
+      width: 100%;
+    }
+  
+    .swiper-slide:nth-child(2n) {
+      width: 100%;
+    }
+  
+    .swiper-slide:nth-child(3n) {
+      width: 100%;
+    }
+    .informações-carro {
+      width: 100%;
+    }
+    .informações-carro-2 {
+      display: none;
+      transition: transform 0.5s ease;
+      overflow: hidden; 
+      max-height: 0; 
+      opacity: 0; 
+      right: 0;
+    }
+    .informações-carro-2.hidden {
+      display: none;
+    }
+    .informações-carro-2.visible {
+      display: block;
+      max-height: 500px;
+      opacity: 1;
+    }
+  
+    .aba-informações-carros {
+      width: 95%;
+    }
+    .cambio,
+    .Ano,
+    .Km,
+    .Cor,
+    .Troca,
+    .Dono {
+      padding-top: 2%;
+    }
+  
+    .itens-opcionais-quarta-coluna {
+      display: none;
+    }
+  
+    .itens-opcionais-primeira-coluna, .itens-opcionais-segunda-coluna, .itens-opcionais-terceira-coluna {
+      margin-right: 3%;
+    }
+  
+  }
+  
+  @media (min-width: 769px) and (max-width: 1439px) {
+    .aba-informações-carros {
+      width: 95%;
+    }
+    .swiper-slide:nth-child(1n) {
+      width: 60%;
+    }
+  
+    .swiper-slide:nth-child(2n) {
+      width: 60%;
+    }
+  
+    .swiper-slide:nth-child(3n) {
+      width: 60%;
+    }
+    .seta-mobile {
+      width: 50px;
+      right: 2%;
+      position: absolute;
+      z-index: 2;
+      display: block;
+  
+    }
+    .informações-carro {
+      width: 100%;
+    }
+  
+    .informações-carro-2 {
+      display: none;
+      transition: all 0.5s;
+      right: -300vw;
+    }
+    .cambio,
+    .Ano,
+    .Km,
+    .Cor,
+    .Troca,
+    .Dono {
+      padding-top: 2%;
+    }
+  }
